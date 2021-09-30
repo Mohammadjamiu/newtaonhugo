@@ -6,9 +6,10 @@ image: "/images/jolt_1 (1).jpg"
 ogimage: "/images/jolt_1 (1).jpg"
 alt: " "
 author: " "
-draft: false
+
 layout: postpagesingle
 description: "Its all about goodness"
+draft: false
 ---
 
 The Truth is

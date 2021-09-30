@@ -5,8 +5,9 @@ type: posts
 image: "/images/jolt_1 (1).jpg"
 alt: " "
 author: " "
-draft: false
+
 layout: postpagesingle
+draft: false
 ---
 
 Hello world
