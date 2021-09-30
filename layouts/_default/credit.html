@@ -1,0 +1,19 @@
+{{ define "main"}}
+
+<section class="ourpost-foreground">
+  <div class="container">
+    <h2>{{ .Params.Title }}</h2>
+    <h3>{{ .Params.ForegroundDescription }} </h3>
+  </div>
+</section>
+
+
+
+
+<section class="pagebody">
+<div class="container">
+{{ .Content }}
+
+</div>
+</section>
+{{ end }}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{ "   <!-- Head -->" | safeHTML}}
+  <head>
+{{ partial "analyticsandmainstyle.html" . }}
+
+
+{{ $learncaStyle := "/css/learnca-style.css" }}
+<link rel="stylesheet" href={{ $learncaStyle }} />
+{{ $articlesStyle := "/css/articles-styles.css" }}
+<link rel="stylesheet" href={{ $articlesStyle }} />
+
+
+
+{{ partial "meta.html" .}}
+
+  </head>
+
+  <body>
+{{ partial "tagmanagerclose.html" . }}
+
+
+    {{ "   <!-- Header section -->" | safeHTML}}
+   
+ {{ partial "header.html" .}}
+    {{ "   <!--End of Header section -->" | safeHTML}}
+   
+
+
+
+
+
+  <!-- Appzi: Capture Insightful Feedback -->
+  <script async src="https://w.appzi.io/w.js?token=gUxl8"></script>
+  <!-- End Appzi -->
+</head>
+
+{{ " <!-- ! Page body begins -->" | safeHTML}}
+
+ 
+
+  <section class="pagebody">
+    <div class="container">
+      <div class="frontline">
+        <h1>
+          {{ .Params.Title }}
+        </h1>
+        <!-- <h3 class="on-what-topic">Telecoms / Networking</h3> -->
+        <p class="description">
+         
+        
+      
+          By {{ .Params.Author }} | {{ .Date }} |
+          <a class="on-what-topic" href=""></a>
+          {{ $readingTime := .ReadingTime }}
+          {{ $readingTime := print $readingTime "mins" | safeHTML }}
+          
+          <p>Estimated Reading Time - {{ $readingTime }}</p>
+        </p>
+      </div>
+
+      {{ .Content }}
+   
+
+    </div>
+  </section>
+
+  {{ "   <!-- Footer Begin -->" | safeHTML}}
+
+  {{ partial "footer.html" . }}
+   
+</body>
+</html>

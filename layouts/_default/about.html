@@ -1,0 +1,48 @@
+{{ define "main"}}
+{{ "   <!-- Our post section -->" | safeHTML}}
+    <section class="ourpost-foreground">
+      <div class="container">
+        <h2>{{ .Params.Title }}</h2>
+        <h3>{{ .Params.ForegroundDescription }} </h3>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <h2 class="story-block">{{ .Params.StoryBlock }}</h2>
+
+        {{ .Content }}
+       
+
+        {{ "   <!-- About page form -->" | safeHTML}}
+    
+        <div class="my-form">
+          <form
+            action="https://formsubmit.co/10ae5eac92717d7297345978e4e3230b"
+            method="post"
+            enctype="multipart/form-data"
+          >
+            <input
+              type="email"
+              name="email"
+              placeholder="Your email"
+              required
+            />
+            <textarea
+              name="message"
+              cols="20"
+              rows="10"
+              placeholder="Tell us something."
+            ></textarea>
+
+            <input
+              type="hidden"
+              name="_next"
+              value="https://tooabstractive.com/thank-you.html"
+            />
+            <button class="btn" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+{{end}}

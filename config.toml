@@ -1,0 +1,46 @@
+baseURL = 'http://tooabstractive.com/'
+languageCode = 'en-us'
+title = 'Tooabstractive'
+
+enableEmoji = true
+enableRobotsTXT = true
+canonifyURLs = true
+
+################################# Default parameters ##########################
+
+
+[params]
+  author = "Mohammad Abdul"
+  og_image = "/images/og.png"
+ 
+ 
+  
+
+
+[menu]
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+ 
+    [[menu.main]]
+        name = "Post"
+        url = "/posts/"
+        weight = 2
+    [[menu.main]]
+        name = "Learn Circuit Analysis"
+        url = "/learnca/"
+        weight = 3
+    [[menu.main]]
+        name = "More Resources"
+        url = "/more-resource/"
+        weight = 4
+    [[menu.main]]
+        name = "About"
+        url = "/about/"
+        weight = 5
+
+[permalinks]
+    post = "/:section/:slug/"
+
+
