@@ -41,6 +41,6 @@ canonifyURLs = true
         weight = 5
 
 [permalinks]
-    post = "/:section/:slug/"
+    posts = "/:section/:filename/"
 
 
