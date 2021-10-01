@@ -35,7 +35,7 @@
    
 
 
-      {{ range first 2 (where .Site.RegularPages "Type" "posts" ) }}
+      {{ range (where .Site.RegularPages "Type" "posts" ) }}
       <a href="{{ .RelPermalink }}" class="post post-1">
         <img src="{{ .Params.image }}" alt="{{ .Params.Alt }}" />
 
