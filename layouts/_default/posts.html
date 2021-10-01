@@ -32,10 +32,9 @@
     <h2 class="curious">It's Miscellaneous.</h2>
     <div class="posts">
      {{ "<!--! This is where each posts start from -->" | safeHTML }}
-   
 
 
-      {{ range (where .Site.RegularPages "Type" "posts" ) }}
+      {{ range .Pages.ByPublishDate.Reverse }}
       <a href="{{ .RelPermalink }}" class="post post-1">
         <img src="{{ .Params.image }}" alt="{{ .Params.Alt }}" />
 
