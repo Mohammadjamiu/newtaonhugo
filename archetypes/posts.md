@@ -1,11 +1,12 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-type: posts
-image: " "
-alt: " "
+
+image: ""
+alt: ""
 description: ""
-author: " "
+author: ""
+type: "posts"
+layout: "single"
 draft: false
-layout: postpagesingle
 ---
