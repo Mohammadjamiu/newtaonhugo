@@ -1,5 +1,5 @@
 ---
-title: "My New Bag Is Awesome"
+title: "My New Bag Is Awesomes"
 date: 2021-09-30T21:57:02-07:00
 type: posts
 layout: single
