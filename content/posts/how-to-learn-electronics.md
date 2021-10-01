@@ -5,8 +5,8 @@ image: "/images/jolt_1 (1).jpg"
 alt: ""
 description: ""
 author: ""
-type: "posts"
-layout: "single"
+type: posts
+layout: posts/single
 draft: false
 ---
 
