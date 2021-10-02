@@ -1,9 +1,5 @@
 ---
-title: "Amazingnewly for Why"`
-image: ""
-alt: ""
-description: ""
-author: ""
+title: "Amazingnewly for Why"
 type: posts
 draft: false
 ---
