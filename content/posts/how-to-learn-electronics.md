@@ -6,7 +6,7 @@ alt: ""
 description: ""
 author: ""
 type: posts
-layout: single
+
 draft: false
 ---
 

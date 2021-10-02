@@ -1,8 +1,8 @@
 ---
-title: "My New Bag Is Awesomes"
+title: "My New Bag Is Awesomesmohd"
 date: 2021-09-30T21:57:02-07:00
 type: posts
-layout: single
+
 draft: false
 ---
 
