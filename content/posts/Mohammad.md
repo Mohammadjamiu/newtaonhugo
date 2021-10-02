@@ -1,11 +1,10 @@
 ---
 title: "Mohammad"
-publishdate: 2021-09-01
+date: 2021-10-01T22:30:05-07:00
 image: ""
 alt: ""
 description: ""
 author: ""
 type: posts
-weight: 3
 draft: false
 ---

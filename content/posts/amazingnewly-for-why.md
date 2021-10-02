@@ -1,11 +1,10 @@
 ---
 title: "Amazingnewly for Why"
-publishdate: 2021-10-02
+date: 2021-10-01T22:30:03-07:00
 image: ""
 alt: ""
 description: ""
 author: ""
 type: posts
-weight: 2
 draft: false
 ---
