@@ -1,11 +1,8 @@
 ---
-title: "Alhamdulilah"
-date: 2021-10-01T18:03:19-07:00
-image: ""
-alt: ""
-description: ""
-author: ""
+title: "denmMy New Bag Is newAwesomesmohd"
+date: 2021-09-30T21:57:02-07:00
 type: posts
+
 draft: false
 ---
 
