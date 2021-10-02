@@ -34,7 +34,7 @@
      {{ "<!--! This is where each posts start from -->" | safeHTML }}
 
 
-      {{ range .Pages }}
+      {{ range .Pages.ByPublishDate.Reverse }}
       <a href="{{ .RelPermalink }}" class="post post-1">
         <img src="{{ .Params.image }}" alt="{{ .Params.Alt }}" />
 

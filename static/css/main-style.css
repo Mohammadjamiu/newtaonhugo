@@ -134,6 +134,7 @@ h2.curious-more-r::after {
   text-transform: capitalize;
   font-family: "MuliBold", sans-serif;
   margin-bottom: 2rem;
+  padding-top: 0.5rem;
 }
 
 .post-more-r {

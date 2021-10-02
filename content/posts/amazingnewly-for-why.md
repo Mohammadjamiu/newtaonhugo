@@ -1,7 +1,10 @@
 ---
 title: "Amazingnewly for Why"
+date: 2021-10-01T22:30:03-07:00
+image: ""
+alt: ""
+description: ""
+author: ""
 type: posts
 draft: false
 ---
-
-Its okay to be good at something if the next thing is quite bad
