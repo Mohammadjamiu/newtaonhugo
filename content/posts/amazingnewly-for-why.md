@@ -1,6 +1,6 @@
 ---
 title: "Amazingnewly for Why"
-date: 2021-10-01T22:30:03-07:00
+publishdate: 2021-10-02
 image: ""
 alt: ""
 description: ""
