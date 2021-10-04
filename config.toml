@@ -44,3 +44,5 @@ canonifyURLs = true
     posts = "/:section/:filename/"
 
 
+[build.environment]
+    TZ = "Africa/Lagos"
