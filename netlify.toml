@@ -36,4 +36,4 @@ to = "/npmjs/"
 status = 200
 
 [build.environment]
-    TZ = "America/New_York"
+    TZ = "Africa/Lagos"
