@@ -14,7 +14,7 @@ section.ourpost-foreground h2 {
 }
 
 section.ourpost-foreground h3 {
-  font-size: 1.53rem;
+  font-size: 1.5rem;
   margin: 1.5rem 0 2rem;
   text-transform: capitalize;
   font-family: "Muli", sans-serif;
@@ -33,11 +33,11 @@ div.tag-to-others {
 
   display: flex;
   flex-direction: row;
-
+  /* justify-content: center; */
   flex-wrap: wrap;
   margin: 3rem 0.3rem 0.3rem 0.3rem;
   text-transform: capitalize;
-  font-size: 1.64rem;
+  font-size: 1.62rem;
 }
 
 .tto-h2 {
@@ -47,34 +47,35 @@ div.tag-to-others {
   font-weight: 400;
 }
 .tag-to-others a.tto-ca {
-  font-size: 1.53rem;
+  font-size: 1.5rem;
   padding-right: 2rem;
   color: var(--primary-color);
   background: rgba(45, 121, 228, 0.3);
   display: inline-block;
-  width: 25rem;
+  width: 24rem;
   padding: 0.5rem;
   border-radius: 0.2rem;
   margin: 0.3em;
 }
 
 .tag-to-others a.tto-emag {
-  font-size: 1.53rem;
+  font-size: 1.5rem;
   padding-right: 2rem;
   color: rgb(228, 152, 45);
   background: rgba(228, 152, 45, 0.3);
   display: inline-block;
-  width: 25rem;
+  width: 24rem;
   padding: 0.5rem;
   border-radius: 0.2rem;
   margin: 0.3rem;
 }
 
 .tag-to-others a.tto-pfe {
-  font-size: 1.53rem;
+  font-size: 1.5rem;
   padding-right: 2rem;
-  background: rgba(45, 121, 228, 0.35);
-  width: 25rem;
+  /* background: rgba(45, 121, 228, 0.35); */
+  background: rgba(64, 69, 77, 0.253);
+  width: 24rem;
   color: var(--primary-color);
   display: inline-block;
 
@@ -83,12 +84,12 @@ div.tag-to-others {
   margin: 0.3rem;
 }
 .tag-to-others a.tto-telecoms {
-  font-size: 1.53rem;
+  font-size: 1.5rem;
   padding-right: 2rem;
   color: rgb(41, 94, 160);
   background: rgba(41, 94, 160, 0.4);
   display: inline-block;
-  width: 25rem;
+  width: 24rem;
   padding: 0.5rem;
   border-radius: 0.2rem;
   margin: 0.3rem;
@@ -111,7 +112,6 @@ h2.curious::after {
   display: block;
   border-radius: 0.1rem;
   color: var(--black-shade);
-  margin-bottom: 3rem;
 }
 
 h2.the-next::after {

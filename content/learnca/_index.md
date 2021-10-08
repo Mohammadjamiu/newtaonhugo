@@ -1,4 +1,5 @@
 ---
-title: Learn Circuit Analysis
+title: "Learn Circuit Analysis"
 layout: learnca
+_categories: ["Circuit analysis"]
 ---

@@ -65,7 +65,7 @@ h2.something-to-say:after {
 }
 
 p {
-  font-size: 1.64rem;
+  font-size: 1.62rem;
 }
 
 p.reason-one,
@@ -147,7 +147,7 @@ a.get-in-touch {
 
 .content-section textarea {
   height: 12rem;
-  font-size: 1.5rem;
+  font-size: 1.45rem;
 }
 
 .content-section input[type="email"]:focus,
@@ -184,7 +184,7 @@ a.get-in-touch {
 
 .donate li {
   color: var(--slidebar-color);
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   margin: 1rem 2rem;
   list-style-type: disc;
 }

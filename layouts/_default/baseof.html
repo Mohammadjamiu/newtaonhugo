@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    {{ "   <!-- Head -->" | safeHTML}}
+    {{/* head */}}
   <head>
-{{ partial "analyticsandmainstyle.html" .}}
-{{ partial "meta.html" .}}
+{{ partial "analytics_mainstyles" .}}
+{{ partial "metatags.html" .}}
   </head>
 
   <body>
-{{ partial "tagmanagerclose.html" .}}
+{{ partial "tagmanager_closetag.html" .}}
+{{ partial "header.html" .}}
+{{ block "main" . }}
 
 
-  {{ partial "header.html" .}}
-
-
-{{ block "main" . }}{{ end }}
-
- 
-
-
+{{ end }}
 {{ partial "footer.html" . }}
+{{ partial "js.html" . }}
    
 </body>
 

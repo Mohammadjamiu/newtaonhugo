@@ -1,0 +1,52 @@
+{{ define "main"}}
+<section class="ourpost-foreground">
+    <div class="container">
+      <h2> {{ .Params.Title }}</h2>
+    
+
+      {{ $readingTime := .ReadingTime }}
+      {{ $readingTime := print $readingTime "mins" | safeHTML }}
+    
+      <p class="description-lca">
+        <!--! Date is August 20 2021 -->
+       By {{ .Params.author }} | {{ .Params.PostDate }} | 
+        <a class="on-what-topic-lca" href="{{.Params.Categorylink}}">{{ index .Params.Categories 0 }}</a> | Estimated Reading Time - {{ $readingTime }}
+         
+      </p>
+    </div>
+  </section>
+
+  <section class="pagebody">
+    <div class="container">
+     
+{{ .Content }}
+     
+<div>
+  {{if .PrevInSection }}
+  {{.PrevInSection.RelPermalink}}
+  {{$title:= slice .PrevInSection.RelPermalink}}
+  {{$newTitle:= index $title 0}}
+  <!-- {{$newTitle}} -->
+{{trim $newTitle "/-/" }}
+  {{end}}
+  {{with .NextInSection }}{{.RelPermalink}}{{.Title}}{{end}}
+
+  <div class="lca-navigation">
+    <a href="" class="lca-nav-next">
+        still empty
+    </a>
+    <a href="series-and-parallel-combination-of-resistor-and-how-to-identify-them.html" class="lca-nav-prev">
+        Series and parallel combination of resistors explained with how to identify them
+    </a>
+</div>
+
+</div>
+    </div>
+  </section>
+
+
+
+
+
+
+{{end}}

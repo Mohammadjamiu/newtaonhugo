@@ -12,6 +12,8 @@ section.pagebody h1 {
   text-transform: capitalize;
   font-family: "MuliBold", sans-serif;
 }
+
+
 section.pagebody h1,
 section.pagebody h2 {
   line-height: 1.35;
@@ -30,6 +32,10 @@ p.description {
   font-size: 1.24rem;
   font-family: "Muli", sans-serif;
 }
+p.descriptionfrontmatter {
+  font-size: 1.25rem;
+  font-family: "Muli", sans-serif;
+}
 
 /* ! holding the style for tags - on-what is general and others is specific */
 a.on-what-topic,
@@ -40,7 +46,7 @@ a.wow-electromag-on-what-topic {
   font-weight: 400 !important;
   color: var(--primary-color);
   display: inline-block;
-  font-size: 1.24rem;
+font-size: 1.245rem;
   border-radius: 0.3rem;
 }
 
@@ -52,7 +58,7 @@ a.wow-electromag-on-what-topic {
 }
 
 p {
-  font-size: 1.64rem;
+  font-size: 1.62rem;
 
   margin: 2rem 0;
   font-family: "Muli", sans-serif;

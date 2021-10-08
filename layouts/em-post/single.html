@@ -27,9 +27,9 @@
         {{ $readingTime := .ReadingTime }}
         {{ $readingTime := print $readingTime "mins" | safeHTML }}
       
-    <!-- {{.WordCount}} -->
-        By {{ .Params.author }} | #{{.Params.weight}} | {{ .Params.PostDate }} | 
-        <a class="on-what-topic" href="{{.Params.Categorylink}}">{{ delimit .Params.Categories "" }}</a> | Estimated Reading Time - {{ $readingTime }}
+    
+        By {{ .Params.author }} | {{ .Params.PostDate }} | 
+        <a class="on-what-topic" href="{{.Params.Categorylink}}">#{{ delimit .Params.Categories "" }}</a> | Estimated Reading Time - {{ $readingTime }}
        
         
        
@@ -43,9 +43,7 @@
 
 
  
-<a data-az-l="ed7eb2d8-ae9b-4f3c-a934-a97ebd6954fb" class="feedback-distinguish">Leave us with a
-  feedback if any
-  - on how this article helps or share your own thought.</a>
+ 
 
   </div>
 </section>
